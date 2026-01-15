@@ -1,4 +1,4 @@
 cmake_minimum_required(VERSION 3.12)
-project(sorting CXX)
+project(Sorting CXX)
 
-add_executable(sorting sorting.cpp)
+add_executable(sorting src/main.cpp)
