@@ -15,7 +15,7 @@ std::vector<int> insert_sort(std::vector<int> input_arr){
 
         int j = i - 1;
 
-        while (j >= 0) and (result[j] > key){
+        while ((j >= 0) && (result[j] > key)){
 
             result[j + 1] = result[j];
             j = j - 1;
